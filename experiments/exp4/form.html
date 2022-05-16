@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pho Vu | Form Page</title>
+        <style>
+            .form-row {
+                margin: 10px 0px;
+            }
+            .form-label {
+                display: block;
+                width: 300px;
+                float: left;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Pho for Prez!</h1>
+            <form action="confirmation.html">
+                <div class="form-row">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="form-row">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" id="email">
+                </div>
+                <div class="form-row">
+                    <label class="form-label">Communications Opt-In</label>
+                    <label>
+                        <input type="checkbox" name="choice">
+                        Campaign Email Updates
+                    </label>
+                    <label>
+                        <input type="checkbox" name="choice">
+                        Rabbit Season Newsletter
+                    </label>
+                    <label>
+                        <input type="checkbox" name="choice">
+                        Join Team Pohpohland!
+                    </label>
+                </div>
+                <div class="form-row">
+                    <label class="form-label">Will you contribute?</label>
+                    <label>
+                        <input type="radio" name="option">
+                        Yes!
+                    </label>
+                    <label>
+                        <input type="radio" name="option">
+                        No, but I would like to help in other ways.
+                    </label>
+                    <label>
+                        <input type="radio" name="option">
+                        No, I'm just going to sit back and watch Bugs win.
+                    </label>
+                </div>
+                <div class="form-row">
+                    <label for="dropdown" class="form-label">Contribution Amount</label>
+                    <select id="dropdown">
+                        <option>$1</option>
+                        <option>$5</option>
+                        <option>$10</option>
+                        <option>$15</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="text-area" class="form-label">Message</label>
+                    <textarea id="text-area" placeholder="Send a message to Pho's team"></textarea>
+                </div>
+                <div class="form-row">
+                    <label class="form-label">
+                        <input type="checkbox">
+                        I accept the Terms & Conditions.
+                    </label>
+                </div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </body>
+</html>
