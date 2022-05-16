@@ -5,4 +5,6 @@ learning to publish some original contents to the world wide web 🕸
 
 <!-- Markdown -->
 
+just a slight distraction!
+
 ![Jokes Card](https://readme-jokes.vercel.app/api)
