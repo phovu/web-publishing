@@ -1,1 +1,56 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pho Vu | Student Page</title>
+        <style>
+            strong {
+                background-color: purple;
+                color: white;
+            }
+            img {
+                height: 200px;
+                width: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Pho Vu</h1>
+        <p>
+            <a href="mailto:pvu23@amherst.edu">pvu23@amherst.edu</a>
+        </p>
+        <p>
+            Favorite color: <strong>Tyrian Purple</strong>
+        </p>
+        <p>
+            Favorite website: <a href="https://www.amherststudent.com">The Amherst Student</a>
+        </p>
+        <p>
+            Favorite activity: journalistic writing & making website with HTML/CSS/JavaScript
+        </p>
+        <img src="" alt="Food">
+        <p>
+            Fall 2022 Classes
+        </p>
+        <ul>
+            <li>COSC 111:  Introduction to Computer Science I</li>
+            <li>ENGL 231: Three, Two, One: Reading Small Dramas</li>
+            <li>ENGL 383/ FAMS 360: Intimate Film Cultures</li>
+            <li>ARHA 444/ FAMS 412:  Films That Try</li>
+   
+        </ul>
+        <p>
+            Topics:
+        </p>
+        <ul>
+            <li><a href="">Topic 1:  Web Resume</a></li>
+            <li><a href="">Topic 2:  Interest Page</a></li>
+        </ul>
+        <p>
+            Experiments:
+        </p>
+        <ul>
+            <li><a href="">Lab 2:  Student Page</a></li>
+            <li><a href="">Lab 3:  Updated Resume</a></li>
+        </ul>
+    </body>
+</html>
